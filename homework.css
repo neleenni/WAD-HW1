@@ -13,7 +13,7 @@ header, footer {
     height:70px;
 }
 
-footer p {
+footer > p {
     color:#000000;
   font-family: "Segoe UI", Arial, sans-serif;
   padding: 16px;
