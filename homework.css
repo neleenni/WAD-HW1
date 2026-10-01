@@ -13,12 +13,26 @@ header, footer {
     height:70px;
 }
 
+footer p {
+    color:#000000;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 16px;
+}
+
 header a {
     text-decoration: none;
   color:#000000;
   font-family: "Segoe UI", Arial, sans-serif;
   padding: 16px;
 }
+
+footer a {
+    text-decoration: none;
+  color:#000000;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 16px;
+}
+
 
 a:hover {
     text-shadow: 2px 2px 4px #555;
