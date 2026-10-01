@@ -39,7 +39,7 @@ a:hover {
 }
 
 #blue-text {
-    color: rgb(18, 18, 143);
+    color: rgb(27, 27, 174);
 }
 
 @media (min-width: 800px) {
@@ -92,9 +92,10 @@ header .logo {
     font-size: 1.1em;
 }
 
+/* Konteinerite üldine laius ja vormindus */
 .login-container, .addpost-container {
-    background-color: rgb(249, 159, 242);
-    width: 250px;
+    background-color: #fca9cf;
+    width: 300px; /* Tõstetud 250px -> 300px, et reasisud paremini ära mahuksid */
     margin: 35px auto;
     padding: 30px;
     border-radius: 15px;
@@ -102,49 +103,29 @@ header .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 
-.login-container form, .addpost-container {
+/* Vormide sisemine flex-paigutus (parandatud selektor!) */
+.login-container form, .addpost-container form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 10px; /* Jätab sisendväljade vahele vahe */
+    gap: 15px;
     margin: 10px 0;
 }
 
-/* veits võiks muuta */
-.login-container button,
-.addpost-container button {
-    background-color: #1e4570; /* Tumesinine nupp */
-    color: white;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-/* võiks ka ilmselt veits üle vaadata*/ 
-.addpost-container .addpost-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap: 15px;
-}
-
-/* vaatab üle */
+/* Login sisendid */
 .login-container input {
-    width: 80%;
-    padding: 6px;
+    width: 100%;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
-/*vaatab üle*/
+/* Nupud */
 .login-container button,
 .addpost-container button {
     background-color: #1e4570;
@@ -157,43 +138,37 @@ header .logo {
     margin-top: 10px;
 }
 
-/*vaatab üle*/
+/* AddPost read (silt ja sisend kõrvuti) */
 .addpost-container .addpost-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 15px;
     gap: 10px;
 }
 
 .addpost-container .addpost-row label {
     text-align: left;
-    width: 40%;
+    width: 35%;
     font-weight: bold;
+    font-size: 14px;
 }
 
-/* seda võiks ka üle vaadata */
+/* Textarea mõõdud suhteliseks (%) */
 .addpost-container textarea {
-    width: 180px;
-    height: 80px;
+    width: 60%;
+    height: 70px;
     resize: none;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
-/* Postituste konteiner ja paigutus */
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-}
-
-/*vaatab üle*/
+/* Faili valida laskev väli */
 .addpost-container input[type="file"] {
     width: 60%;
+    font-size: 12px;
 }
 
 /* Üksiku postituse kaart */
