@@ -13,8 +13,16 @@ header {
     border-radius: 12px;
     width: 100%;
     padding:10px;
-
+    height:70px;
 }
+
+header a {
+    text-decoration: none;
+  color:#000000;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 16px;
+}
+
 a:hover {
     text-shadow: 2px 2px 4px #555;
 }
