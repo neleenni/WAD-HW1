@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add post</title>
     <link rel="stylesheet" href="homework.css">
 </head>
 <body>
@@ -12,12 +12,19 @@
         <a class="logo" href="#"><img src="pic/nägu.jpg" width="50" height="50" alt="My picture"></a>
     </header>
     <main class = "addpost-container">
-    <h1>Post body</h1>
-    <!-- Kastike text area -->
-    <h1>Select file</h1>
-    <!--Choose file kastike-->
+    <form action="index.html">
+            <div class="addpost-form">
+                <label for="post-body">Post body</label>
+                <textarea id="post-body" name="body" placeholder="textarea" required></textarea>
+            </div>
 
-    <a href="index.html">Create post</a>
+            <div class="addpost-form">
+                <label for="file-upload">Select<br>file</label>
+                <input type="file" id="file-upload" name="file">
+            </div>
+
+            <button type="submit">Create post</button>
+        </form>
     </main>
 </body>
 </html>
