@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="homework.css">
 </head>
 <body>
-    
+    <header>
+        <a href="index.html">Home</a>
+        <a class="logo" href="#"><img src="pic/nägu.jpg" width="50" height="50" alt="My picture"></a>
+    </header>
+    <main class="login-container">
+        <h2>Welcome to PostIt</h2>
+
+        <a href="#" class="blue-text">Create an account</a>
+
+        <p>or</p>
+
+        <p>Please log in</p>
+
+        <!-- 5. Vorm sisendväljade ja "Log in" nupuga -->
+        <form action="index.html">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            
+            <button type="submit">Log in</button>
+        </form>
+
+        <a href="#" class="blue-text">Forgot password</a>
+    </main>
 </body>
 </html>
