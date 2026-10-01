@@ -93,13 +93,45 @@ header .logo {
     /*gap: 10px;*/
 }
 
-.login-container form {
+.login-container, .addpost-container form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     gap: 10px; /* Jätab sisendväljade vahele vahe */
     margin: 10px 0;
+}
+
+/* veits võiks muuta */
+.login-container button,
+.addpost-container button {
+    background-color: #1e4570; /* Tumesinine nupp */
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* võiks ka ilmselt veits üle vaadata*/ 
+.addpost-container .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+/* seda võiks ka üle vaadata */
+.addpost-container textarea {
+    width: 180px;
+    height: 80px;
+    resize: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 /* Postituste konteiner ja paigutus */
