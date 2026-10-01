@@ -1,0 +1,153 @@
+/* Home and Add Post in the navigation bar should change their background color
+when you hover over them */
+
+h1 {
+    color: rgb(195, 43, 152);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border: 2px;
+    background-color: #f7a8cd;
+    border-radius: 12px;
+    width: 100%;
+    padding:10px;
+
+}
+a:hover {
+    text-shadow: 2px 2px 4px #555;
+}
+
+#blue-text {
+    color: rgb(18, 18, 143);
+}
+
+@media (min-width: 800px) {
+    .header,
+    .nav {
+        display: flex;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+    /* 
+     Applies when the browser's width is 1000px wide or wider: 
+     */
+
+@media (min-width: 1000px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 799px) {
+    .logo{
+        display: none;
+    }
+}
+
+.indexbody {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px 0;
+  row-gap: 12px; 
+}
+
+main {
+  flex: 1;
+}
+
+aside {
+  flex: 0 0 14%;
+  background-color: #f7a8cd;
+  border-radius: 12px;
+}
+
+header .logo {
+    margin-left: auto;
+    font-size: 1.1em;
+}
+
+.login-container {
+    background-color: rgb(249, 159, 242);
+    width: 250px;
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*gap: 10px;*/
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Jätab sisendväljade vahele vahe */
+    margin: 10px 0;
+}
+
+/* Postituste konteiner ja paigutus */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Üksiku postituse kaart */
+.post {
+    background-color: #e0e0e0;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Postituse päis (profiilipilt ja kuupäev) */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Postituse sisu ja pilt */
+.post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post-text {
+    margin: 8px 0;
+    font-size: 1em;
+}
+
+/* Like-nupp */
+.like-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
