@@ -1,5 +1,27 @@
-/* Home and Add Post in the navigation bar should change their background color
-when you hover over them */
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f5d6e4;
+}
+
+a {
+  color:#000000;
+  padding: 16px;
+}
+
+a:hover {
+    text-shadow: 2px 2px 4px #555;
+}
+
+.blue-text {
+    color: rgb(46, 79, 150);
+    font-weight: 600;
+}
+
 
 header, footer {
     display: flex;
@@ -14,44 +36,36 @@ header, footer {
     font-size: 1.1em;
 }
 
-body {
-    background-color: #f5d6e4;
-}
-
-main {
-  flex: 1;
+header .logo {
+    margin-left: auto;
+    font-size: 1.1em;
 }
 
 footer > p { 
     padding: 16px;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: "Segoe UI", Arial, sans-serif;
-    text-decoration: none;
-}
 
-a {
-  color:#000000;
-  padding: 16px;
-}
-
-a:hover {
-    text-shadow: 2px 2px 4px #555;
+.indexbody {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px 0;
+  gap: 12px; 
 }
 
 main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
 }
 
-.blue-text {
-    color: rgb(13, 54, 143);
-    font-weight: 500;
-
+aside {
+    flex: 0 0 14%;
+    background-color: #f7a8cd;
+    border-radius: 12px;
 }
+
 
 @media (min-width: 800px) {
     .header,
@@ -64,10 +78,7 @@ main {
     }
 }
 
-    /* 
-     Applies when the browser's width is 1000px wide or wider: 
-     */
-
+    /* Applies when the browser's width is 1000px wide or wider: */
 @media (min-width: 1000px) {
     .header {
         flex-direction: row;
@@ -79,24 +90,6 @@ main {
     .logo{
         display: none;
     }
-}
-
-.indexbody {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 12px 0;
-  gap: 12px; 
-}
-
-aside {
-    flex: 0 0 14%;
-    background-color: #f7a8cd;
-    border-radius: 12px;
-}
-
-header .logo {
-    margin-left: auto;
-    font-size: 1.1em;
 }
 
 /* Konteinerite üldine laius ja vormindus */
@@ -171,6 +164,7 @@ header .logo {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    resize: none;
 }
 
 /* Faili valida laskev väli */
@@ -181,7 +175,7 @@ header .logo {
 
 /* Üksiku postituse kaart */
 .post {
-    background-color: #ffdee9;
+    background-color: #ffe2eb;
     border-radius: 12px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
