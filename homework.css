@@ -152,6 +152,10 @@ header .logo {
     width: 100%;
 }
 
+#file-upload {
+    width: 250px;
+}
+
 .addpost-container .addpost-row label {
     text-align: right;
     width: 35%;
