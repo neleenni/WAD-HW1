@@ -1,11 +1,8 @@
 /* Home and Add Post in the navigation bar should change their background color
 when you hover over them */
 
-h1 {
-    color: rgb(195, 43, 152);
-}
 
-header {
+header, footer {
     display: flex;
     align-items: center;
     border: 2px;
