@@ -87,10 +87,10 @@ header .logo {
     text-align: center;
     display: flex;
     flex-direction: column;
-    /*gap: 10px;*/
+    align-items: center;
 }
 
-.login-container, .addpost-container form {
+.login-container form, .addpost-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,12 +113,50 @@ header .logo {
 }
 
 /* võiks ka ilmselt veits üle vaadata*/ 
-.addpost-container .form-row {
+.addpost-container .addpost-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     gap: 15px;
+}
+
+/* vaatab üle */
+.login-container input {
+    width: 80%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*vaatab üle*/
+.login-container button,
+.addpost-container button {
+    background-color: #1e4570;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/*vaatab üle*/
+.addpost-container .addpost-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.addpost-container .addpost-row label {
+    text-align: left;
+    width: 40%;
+    font-weight: bold;
 }
 
 /* seda võiks ka üle vaadata */
@@ -137,6 +175,11 @@ main {
     flex-direction: column;
     gap: 20px;
     padding: 10px;
+}
+
+/*vaatab üle*/
+.addpost-container input[type="file"] {
+    width: 60%;
 }
 
 /* Üksiku postituse kaart */
