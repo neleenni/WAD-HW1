@@ -73,7 +73,7 @@ header .logo {
     font-size: 1.1em;
 }
 
-.login-container {
+.login-container, .addpost-container {
     background-color: rgb(249, 159, 242);
     width: 250px;
     margin: 35px auto;
