@@ -7,22 +7,27 @@
     <link rel="stylesheet" href="homework.css">
 </head>
 <body>
+    <!-- Header section - navigation links and logo -->
     <header>
         <a href="index.html">Home</a>
         <a class="logo" href="#"><img src="pic/nägu.jpg" width="50" height="50" alt="My picture"></a>
     </header>
     <main class = "addpost-container">
+        <!-- Form that redirects to index.html upon submission -->
         <form action="index.html">
+            <!-- Row for the post text content input -->
             <div class="addpost-row">
                 <label for="post-body">Post body</label>
+                <!-- Text input field for the post content, required field -->
                 <textarea id="post-body" name="body" placeholder="textarea" required></textarea>
             </div>
-
+            <!-- Row for the file attachment input -->
             <div class="addpost-row">
                 <label for="file-upload">Select<br>file</label>
+                <!-- File input element, allowing users to select a file from their device -->
                 <input type="file" id="file-upload" name="file">
             </div>
-
+            <!-- Submit button to create and send the post -->
             <button type="submit">Create post</button>
         </form>
     </main>
