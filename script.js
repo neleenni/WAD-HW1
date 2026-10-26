@@ -35,7 +35,7 @@ if (postsContainer) {
   */
 
   // ÜLESANNE 5: andmed JSON-failist
-  fetch("posts.json")
+  fetch("jasonderulo.json")
     .then(res => res.json())
     .then(renderPosts)
     .catch(err => console.error("Fetch failed:", err));
