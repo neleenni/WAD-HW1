@@ -1,0 +1,12 @@
+[
+  {"id":1,"author":"Kelis Laurimäe","authorPic":"pic/nagu.jpg","date":"2026-08-10T12:30:00","text":"Kelis's cake","image":"pic/kelis.jpg"},
+  {"id":2,"author":"Mia Grr","authorPic":"pic/nagu.jpg","date":"2026-09-30T14:20:00","text":"Mia's cake","image":"pic/mia.jpg"},
+  {"id":3,"author":"Nele Enni","authorPic":"pic/nagu.jpg","date":"2026-07-16T09:05:00","text":"Nele's cake","image":"pic/nele.jpg"},
+  {"id":4,"author":"Jaan Tamm","authorPic":"pic/nagu.jpg","date":"2026-05-20T18:45:00","text":"Jaan's cake","image":"pic/jaan.jpg"},
+  {"id":5,"author":"Reimo Kask","authorPic":"pic/nagu.jpg","date":"2026-04-04T11:10:00","text":"Sorry, where is the recipe for the smiley face cake? Thanks, Reimo.","image":null},
+  {"id":6,"author":"Mia Grr","authorPic":"pic/nagu.jpg","date":"2026-03-12T16:00:00","text":"Chocolate cake for the weekend!","image":"pic/mia.jpg"},
+  {"id":7,"author":"Nele Enni","authorPic":"pic/nagu.jpg","date":"2026-02-28T20:15:00","text":"Anyone tried the strawberry recipe?","image":null},
+  {"id":8,"author":"Kelis Laurimäe","authorPic":"pic/nagu.jpg","date":"2026-02-01T08:40:00","text":"Birthday cake for my sister","image":"pic/kelis.jpg"},
+  {"id":9,"author":"Jaan Tamm","authorPic":"pic/nagu.jpg","date":"2026-01-15T13:25:00","text":"Baking is harder than it looks.","image":null},
+  {"id":10,"author":"Reimo Kask","authorPic":"pic/nagu.jpg","date":"2025-12-20T19:50:00","text":"Christmas cake is ready!","image":"pic/jaan.jpg"}
+]
