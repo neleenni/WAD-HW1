@@ -10,11 +10,18 @@
     <!-- Header section - navigation links and logo -->
     <header>
         <a href="index.html">Home</a>
-        <a class="logo" href="#"><img src="pic/nagu.jpg" width="50" height="50" alt="My picture"></a>
+        <div class="logo profile">
+            <img id="profile-pic" src="pic/nagu.jpg" width="50" height="50" alt="My picture">
+            <div id="dropdown" class="dropdown">
+                <p>Halli Kalli</p>
+                <p>halli.kalli@ut.ee</p>
+                <a href="login.html">logout</a>
+            </div>
+        </div>
     </header>
     <main class = "addpost-container">
         <!-- Form that redirects to index.html upon submission -->
-        <form action="index.html">
+        <form action="index.html" method="post">
             <!-- Row for the post text content input -->
             <div class="addpost-row">
                 <label for="post-body">Post body</label>
@@ -31,5 +38,6 @@
             <button type="submit">Create post</button>
         </form>
     </main>
+<script src="script.js"></script>
 </body>
 </html>

@@ -221,3 +221,42 @@ aside {
     font-size: 1.2em;
     cursor: pointer;
 }
+
+/* Profile picture with dropdown menu */
+.profile {
+    position: relative;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    display: block;
+}
+
+/* Hidden by default, shown when JS adds the "show" class */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    min-width: 200px;
+    background-color: #f7d3e4;
+    border-radius: 12px;
+    padding: 10px 16px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.dropdown.show {
+    display: block;
+}
+
+.dropdown p,
+.dropdown a {
+    display: block;
+    margin: 0;
+    padding: 6px 0;
+    font-size: 0.9em;
+}

@@ -1,6 +1,6 @@
 [
-  {"id":1,"author":"Kelis Laurimäe","authorPic":"pic/nagu.jpg","date":"2026-08-10T12:30:00","text":"Kelis's cake","image":"pic/kelis.jpg"},
-  {"id":2,"author":"Mia Grossthal","authorPic":"pic/nagu.jpg","date":"2026-09-30T14:20:00","text":"Mia's cake","image":"pic/mia.jpg"},
+  {"id":1,"author":"Mia Grossthal","authorPic":"pic/nagu.jpg","date":"2026-09-30T14:20:00","text":"Mia's cake","image":"pic/mia.jpg"},
+  {"id":2,"author":"Kelis Laurimäe","authorPic":"pic/nagu.jpg","date":"2026-08-10T12:30:00","text":"Kelis's cake","image":"pic/kelis.jpg"},
   {"id":3,"author":"Nele Enni","authorPic":"pic/nagu.jpg","date":"2026-07-16T09:05:00","text":"Nele's cake","image":"pic/nele.jpg"},
   {"id":4,"author":"Jaan Tamm","authorPic":"pic/nagu.jpg","date":"2026-05-20T18:45:00","text":"Jaan's cake","image":"pic/jaan.jpg"},
   {"id":5,"author":"Reimo Kask","authorPic":"pic/nagu.jpg","date":"2026-04-04T11:10:00","text":"Sorry, where is the recipe for the smiley face cake? Thanks, Reimo.","image":null},
