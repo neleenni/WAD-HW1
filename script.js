@@ -28,7 +28,7 @@ function renderPosts(posts) {
 if (postsContainer) {
   // ÜLESANNE 4: andmed internetist (kommenteerib välja, kui läheb üle ülesandele 5)
   /*
-  fetch("jsonbloburl") //puudu
+  fetch("jsonbloburi") //puudu
     .then(res => res.json())
     .then(renderPosts)
     .catch(err => console.error("Fetch failed:", err));
