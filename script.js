@@ -27,13 +27,13 @@ function renderPosts(posts) {
 
 if (postsContainer) {
   // ÜLESANNE 4: andmed internetist (kommenteerib välja, kui läheb üle ülesandele 5)
-  /*
-  fetch("jsonbloburl") //puudu
+
+  /*fetch("https://gist.githubusercontent.com/neleenni/ddb50858dfce75c6f11f23ab81cdfbca/raw/bddc1edaa03c1e3fe383127994f68bdab68f3464/posts.json") //puudu
     .then(res => res.json())
     .then(renderPosts)
     .catch(err => console.error("Fetch failed:", err));
-  */
-
+  
+  }*/
   // ÜLESANNE 5: andmed JSON-failist
   fetch("jasonderulo.json")
     .then(res => res.json())
