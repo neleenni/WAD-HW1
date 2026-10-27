@@ -48,3 +48,11 @@ const dropdown = document.getElementById("dropdown");
 if (profilePic && dropdown) {
   profilePic.addEventListener("click", () => dropdown.classList.toggle("show"));
 }
+
+document.querySelectorAll(".login-container form, .addpost-container form")
+  .forEach(form => {
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      window.location.href = "index.html";
+    });
+  });
