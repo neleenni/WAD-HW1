@@ -12,7 +12,7 @@ export default createStore({
 
   mutations: {
     setPosts(state, posts) {
-      state.posts = posts
+      state.posts = posts.map((p) => ({ ...p, likes: p.likes ?? 0 }))
     },
     incrementLikes(state, id) {
       const post = state.posts.find((p) => p.id === id)
